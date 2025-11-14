@@ -30,7 +30,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end">
     
-    <a className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub /> Contribute</a>
+    <a className="btn text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub /> Contribute</a>
   </div>
 </div>
     </div>
