@@ -1,0 +1,18 @@
+import React from 'react'
+import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { FaAppStoreIos } from "react-icons/fa";
+
+const Hero = () => {
+  return (
+    <div className="flex flex-col justify-center text-center w-[300px] md:w-[1500px] mx-auto ">
+      <h1 className='text-[#001931] text-3xl md:text-7xl font-bold text-shadow-2xl'>We Build <br /> <span className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h1>
+      <p className='text-[#627382] text-md md:text-xl line-clamp-2'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br/> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
+      <div className=' space-x-4'>
+        <button className=' btn'> <IoLogoGooglePlaystore />Google Play</button>
+        <button className=' btn'> <FaAppStoreIos />App Store</button>
+      </div>
+    </div>
+  )
+}
+
+export default Hero
