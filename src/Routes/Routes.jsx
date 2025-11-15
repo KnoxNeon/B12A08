@@ -4,6 +4,7 @@ import MainLayout from "../Layouts/MainLayout";
 import ErrorPage from "../Pages/ErrorPage";
 import Hero from "../Components/Hero";
 import Banner from "../Components/Banner";
+import AppCard from "../Components/AppCard";
 
 export const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ export const router = createBrowserRouter([
         },
         {
             path: "/",
-            element: <div><Hero /> <Banner/></div> 
+            element: <div><Hero /> <Banner/> <AppCard/></div> 
         },
     ]
     
