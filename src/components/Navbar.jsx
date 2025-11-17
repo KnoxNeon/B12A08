@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
+import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
   return (
@@ -19,13 +20,13 @@ const Navbar = () => {
       </ul>
     </div>
     <img className='h-10 w-10' src="../logo.png" alt="" />
-    <a className="btn btn-ghost text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</a>
+    <NavLink className="btn btn-ghost text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</NavLink>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
-      <li><a>Apps</a></li>
-      <li><a>Installation</a></li>
+      <li><Link to='/'>Home</Link></li>
+      <li><Link to='/apps'>Apps</Link></li>
+      <li><Link to='/installation'>Installation</Link></li>
     </ul>
   </div>
   <div className="navbar-end">

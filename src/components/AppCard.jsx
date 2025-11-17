@@ -8,7 +8,7 @@ const AppCard = ({app}) => {
       <div>
           <div className="card bg-base-100 w-full shadow-sm hover:scale-105">
               <figure>
-                  <img className='w-full h-80 bg-white object-cover'
+                  <img className='w-full lg:h-80 bg-white object-cover'
                       src={app.image}
                       alt="{app.title}" />
               </figure>

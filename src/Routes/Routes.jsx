@@ -6,6 +6,7 @@ import Hero from "../Components/Hero";
 import Banner from "../Components/Banner";
 import AppCard from "../Components/AppCard";
 import Home from "../Components/Home";
+import Installation from "../Pages/Installation";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
         {
             path: "/",
             element: <div><Hero /> <Banner/> <Home/></div> 
+        },
+        {
+            path: "/installation",
+            element: <div><Installation/></div> 
         },
     ]
     
