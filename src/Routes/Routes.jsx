@@ -4,7 +4,6 @@ import MainLayout from "../Layouts/MainLayout";
 import ErrorPage from "../Pages/ErrorPage";
 import Hero from "../Components/Hero";
 import Banner from "../Components/Banner";
-import AppCard from "../Components/AppCard";
 import Home from "../Components/Home";
 import Installation from "../Pages/Installation";
 

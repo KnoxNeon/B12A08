@@ -14,13 +14,16 @@ const Navbar = () => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Home</a></li>
-      <li><a>Apps</a></li>
-      <li><a>Installation</a></li>
+        <li><Link to='/'>Home</Link></li>
+      <li><Link to='/apps'>Apps</Link></li>
+      <li><Link to='/installation'>Installation</Link></li>
       </ul>
     </div>
-    <img className='h-10 w-10' src="../logo.png" alt="" />
-    <NavLink className="btn btn-ghost text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</NavLink>
+    <NavLink className='flex btn btn-ghost'>
+      <img className='h-10 w-10' src="../logo.png" alt="" />
+    <div className=" text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</div>
+    </NavLink>
+    
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -31,7 +34,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end">
     
-    <a className="btn text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub /> Contribute</a>
+    <Link to='https://github.com/KnoxNeon' className="btn text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]"><FaGithub /> Contribute</Link>
   </div>
 </div>
     </div>
