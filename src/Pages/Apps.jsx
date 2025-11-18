@@ -27,7 +27,7 @@ const Apps = () => {
               <path d="m21 21-4.3-4.3"></path>
             </g>
           </svg>
-          <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search Product" />
+          <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search App" />
         </label>
       </div>
       <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10 mx-20 '>

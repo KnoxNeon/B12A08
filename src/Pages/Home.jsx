@@ -7,7 +7,6 @@ import Banner from '../Components/Banner'
 
 const Home = () => {
      const {apps, loading, error} = useApps()
-     console.log(apps)
      const featuredApps = apps.slice(0,8)
   return (
 
