@@ -10,7 +10,7 @@ const Apps = () => {
  
   return (
     <div>
-      <h1 className='mt-20 mb-2 text-5xl font-bold text-center'>Our All Applications</h1>
+      <h1 className='pt-20 mb-2 text-5xl font-bold text-center'>Our All Applications</h1>
       <p className='text-[#627382] text-xl text-center mb-10'>Explore All Apps on the Market developed by us. We code for Millions</p>
       <div className='flex justify-between mt-2 mx-20'>
         <h1 className=' text-2xl font-bold'>All Applications <span>({searchedApps.length})</span></h1>
@@ -30,7 +30,7 @@ const Apps = () => {
           <input value={search} onChange={(e)=>setSearch(e.target.value)} type="search" required placeholder="Search App" />
         </label>
       </div>
-      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10 mx-20 '>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 py-10 mx-20 '>
         {
           searchedApps.map(app => (
             <AppCard key={app.id} app={app} />
