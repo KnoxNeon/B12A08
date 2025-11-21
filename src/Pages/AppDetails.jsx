@@ -29,7 +29,7 @@ const AppDetails = () => {
         <div className="p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row gap-6">
             {/* App Icon - Fixed size */}
-            <div className="flex-shrink-0">
+            <div className="shrink-0">
               <img
                 src={app.image}
                 alt={app.title}

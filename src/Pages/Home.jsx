@@ -12,9 +12,9 @@ const Home = () => {
 
     <div>
       <div><Hero/><Banner/></div>
-      <div ><h1 className='mt-20 mb-2 text-5xl font-bold text-center'>Trending Apps</h1>
-      <p className='text-[#627382] text-xl text-center mb-10'>Explore All Trending Apps on the Market developed by us</p>
-      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10 mx-20 '>
+      <div ><h1 className='mt-4 lg:mt-20 mb-2 text-3xl lg:text-5xl font-bold text-center'>Trending Apps</h1>
+      <p className='text-[#627382] text-md lg:text-xl text-center mb-10'>Explore All Trending Apps on the Market developed by us</p>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6 lg:my-10 m-6 lg:mx-20'>
         {
           featuredApps.map(app =>(
             <AppCard key={app.id} app={app} />
