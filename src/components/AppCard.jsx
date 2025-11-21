@@ -1,12 +1,13 @@
 import React from 'react'
 import { IoMdDownload } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const AppCard = ({app}) => {
 
   return (
       <div>
-          <div className="card bg-base-100 w-full shadow-sm hover:scale-105">
+          <Link to={`/app/${app.id}`} className="card bg-base-100 w-full shadow-sm hover:scale-105">
               <figure>
                   <img className='w-full lg:h-80 bg-white object-cover'
                       src={app.image}
@@ -20,7 +21,7 @@ const AppCard = ({app}) => {
                       <button className="btn bg-[#FFF0E1] text-[#FF8811] text-base font-medium "><FaStar />{app.ratingAvg}</button>
                   </div>
               </div>
-          </div>
+          </Link>
       </div>
   )
 }
