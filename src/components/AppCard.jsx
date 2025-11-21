@@ -9,7 +9,7 @@ const AppCard = ({app}) => {
       <div>
           <Link to={`/app/${app.id}`} className="card bg-base-100 w-full shadow-sm hover:scale-105">
               <figure>
-                  <img className='w-full lg:h-80 bg-white object-cover'
+                  <img className='w-50 h-32 sm:w-40 sm:h-40 rounded-3xl pt-6 object-cover'
                       src={app.image}
                       alt="{app.title}" />
               </figure>

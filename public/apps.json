@@ -6,15 +6,15 @@
     "id": 1,
     "description": "Connect with friends and family, share life updates, discover communities, and explore content tailored to your interests. Stay updated with real-time posts, stories, reels, and live videos from people and pages you follow. With billions of users worldwide, Facebook remains the leading platform for social networking, messaging, and marketplace discoveries.",
     "size": 68.4,
-    "reviews": 138000000,
+    "reviews": 138,
     "ratingAvg": 4.1,
-    "downloads": "10M",
+    "downloads": 100,
     "ratings": [
-      { "name": "1 star", "count": 18900000 },
-      { "name": "2 star", "count": 9200000 },
-      { "name": "3 star", "count": 15800000 },
-      { "name": "4 star", "count": 29800000 },
-      { "name": "5 star", "count": 64600000 }
+      { "name": "1 star", "count": 19 },
+      { "name": "2 star", "count": 9 },
+      { "name": "3 star", "count": 16 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 64 }
     ]
   },
   {
@@ -24,15 +24,15 @@
     "id": 2,
     "description": "Capture and share your world through photos, stories, reels, and IGTV. Follow your favorite creators, brands, and influencers to stay inspired with visual content. Use powerful editing tools, AR filters, and music to create engaging posts that stand out. With over 2 billion monthly users, Instagram is the go-to platform for creativity, connection, and discovery.",
     "size": 72.1,
-    "reviews": 152000000,
+    "reviews": 152,
     "ratingAvg": 4.3,
-    "downloads":"10M",
+    "downloads": 50,
     "ratings": [
-      { "name": "1 star", "count": 12800000 },
-      { "name": "2 star", "count": 7800000 },
-      { "name": "3 star", "count": 14800000 },
-      { "name": "4 star", "count": 32800000 },
-      { "name": "5 star", "count": 83800000 }
+      { "name": "1 star", "count": 13 },
+      { "name": "2 star", "count": 8 },
+      { "name": "3 star", "count": 15 },
+      { "name": "4 star", "count": 33 },
+      { "name": "5 star", "count": 83 }
     ]
   },
   {
@@ -42,15 +42,15 @@
     "id": 3,
     "description": "Send messages, make voice and video calls, and share media with end-to-end encryption for complete privacy. Create group chats with up to 1024 members, share live locations, and send disappearing messages. Trusted by over 2.5 billion people globally, WhatsApp is the world’s most popular secure messaging app for personal and business communication.",
     "size": 54.3,
-    "reviews": 189000000,
+    "reviews": 189,
     "ratingAvg": 4.2,
-    "downloads": "10M",
+    "downloads": 80,
     "ratings": [
-      { "name": "1 star", "count": 19800000 },
-      { "name": "2 star", "count": 10800000 },
-      { "name": "3 star", "count": 18800000 },
-      { "name": "4 star", "count": 39800000 },
-      { "name": "5 star", "count": 100200000 }
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 11 },
+      { "name": "3 star", "count": 19 },
+      { "name": "4 star", "count": 40 },
+      { "name": "5 star", "count": 99 }
     ]
   },
   {
@@ -60,15 +60,15 @@
     "id": 4,
     "description": "Stream over 100 million songs, discover personalized playlists, and enjoy ad-free music with Premium. Listen to podcasts, audiobooks, and exclusive artist content across all devices. With powerful recommendations powered by AI, Spotify helps you find your next favorite song, album, or podcast in seconds.",
     "size": 48.9,
-    "reviews": 31200000,
+    "reviews": 31,
     "ratingAvg": 4.5,
-    "downloads": "10M",
+    "downloads": 100,
     "ratings": [
-      { "name": "1 star", "count": 2800000 },
-      { "name": "2 star", "count": 1800000 },
-      { "name": "3 star", "count": 3800000 },
-      { "name": "4 star", "count": 6800000 },
-      { "name": "5 star", "count": 16000000 }
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 2 },
+      { "name": "3 star", "count": 4 },
+      { "name": "4 star", "count": 7 },
+      { "name": "5 star", "count": 15 }
     ]
   },
   {
@@ -78,15 +78,15 @@
     "id": 5,
     "description": "Watch, upload, and discover videos on the world’s largest video platform. From music videos and tutorials to gaming and vlogs, find content for every interest. Subscribe to channels, create playlists, and enjoy offline downloads with YouTube Premium. Over 2.5 billion users watch billions of hours of video monthly.",
     "size": 98.7,
-    "reviews": 142000000,
+    "reviews": 142,
     "ratingAvg": 4.1,
-    "downloads": "10M",
+    "downloads": 100,
     "ratings": [
-      { "name": "1 star", "count": 21800000 },
-      { "name": "2 star", "count": 12800000 },
-      { "name": "3 star", "count": 19800000 },
-      { "name": "4 star", "count": 29800000 },
-      { "name": "5 star", "count": 58800000 }
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 13 },
+      { "name": "3 star", "count": 20 },
+      { "name": "4 star", "count": 30 },
+      { "name": "5 star", "count": 57 }
     ]
   },
   {
@@ -96,15 +96,15 @@
     "id": 6,
     "description": "Create and discover short-form videos with powerful editing tools, effects, and trending sounds. Join global challenges, go live, and build a following with your unique content. With over 1.5 billion users, TikTok is the leading platform for viral entertainment, creativity, and cultural trends.",
     "size": 112.3,
-    "reviews": 62800000,
+    "reviews": 63,
     "ratingAvg": 4.4,
-    "downloads": "10M",
+    "downloads": 300,
     "ratings": [
-      { "name": "1 star", "count": 6800000 },
-      { "name": "2 star", "count": 4200000 },
-      { "name": "3 star", "count": 7800000 },
-      { "name": "4 star", "count": 12800000 },
-      { "name": "5 star", "count": 31200000 }
+      { "name": "1 star", "count": 7 },
+      { "name": "2 star", "count": 4 },
+      { "name": "3 star", "count": 8 },
+      { "name": "4 star", "count": 13 },
+      { "name": "5 star", "count": 31 }
     ]
   },
   {
@@ -114,15 +114,15 @@
     "id": 7,
     "description": "Navigate the world with real-time GPS, traffic updates, and public transit info. Discover nearby restaurants, gas stations, and attractions with detailed reviews and photos. Save places, share locations, and explore Street View for immersive planning. Trusted by over 1 billion users for daily navigation and exploration.",
     "size": 58.9,
-    "reviews": 16800000,
+    "reviews": 17,
     "ratingAvg": 4.3,
-    "downloads": "10M",
+    "downloads": 100,
     "ratings": [
-      { "name": "1 star", "count": 1800000 },
-      { "name": "2 star", "count": 1200000 },
-      { "name": "3 star", "count": 2800000 },
-      { "name": "4 star", "count": 4800000 },
-      { "name": "5 star", "count": 7200000 }
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 3 },
+      { "name": "4 star", "count": 5 },
+      { "name": "5 star", "count": 6 }
     ]
   },
   {
@@ -132,15 +132,15 @@
     "id": 8,
     "description": "Manage your email with powerful spam filtering, smart organization, and 15GB of free storage. Use labels, filters, and search to find any message instantly. Integrate with Google Meet, Calendar, and Drive for seamless productivity. Over 1.8 billion users rely on Gmail for personal and professional communication.",
     "size": 42.1,
-    "reviews": 12800000,
+    "reviews": 13,
     "ratingAvg": 4.4,
-    "downloads": "10M",
+    "downloads": 100,
     "ratings": [
-      { "name": "1 star", "count": 980000 },
-      { "name": "2 star", "count": 680000 },
-      { "name": "3 star", "count": 1480000 },
-      { "name": "4 star", "count": 3280000 },
-      { "name": "5 star", "count": 6280000 }
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 1 },
+      { "name": "4 star", "count": 3 },
+      { "name": "5 star", "count": 7 }
     ]
   },
   {
@@ -150,15 +150,15 @@
     "id": 9,
     "description": "Request rides, order food, or book deliveries with just a few taps. Track your driver in real-time, pay securely, and rate your experience. Available in over 10,000 cities worldwide, Uber connects you to safe, reliable transportation and services 24/7.",
     "size": 78.5,
-    "reviews": 12800000,
+    "reviews": 12,
     "ratingAvg": 4.6,
-    "downloads": "10M",
+    "downloads": 50,
     "ratings": [
-      { "name": "1 star", "count": 980000 },
-      { "name": "2 star", "count": 680000 },
-      { "name": "3 star", "count": 1280000 },
-      { "name": "4 star", "count": 2980000 },
-      { "name": "5 star", "count": 6280000 }
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 1 },
+      { "name": "4 star", "count": 3 },
+      { "name": "5 star", "count": 6 }
     ]
   },
   {
@@ -168,15 +168,15 @@
     "id": 10,
     "description": "Stream thousands of movies, TV shows, documentaries, and originals in 4K. Download titles for offline viewing and create multiple profiles for family members. With personalized recommendations and exclusive content, Netflix is the world’s leading entertainment streaming service.",
     "size": 68.9,
-    "reviews": 14800000,
+    "reviews": 15,
     "ratingAvg": 4.3,
-    "downloads": "10M",
+    "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 1680000 },
-      { "name": "2 star", "count": 980000 },
-      { "name": "3 star", "count": 1980000 },
-      { "name": "4 star", "count": 3980000 },
-      { "name": "5 star", "count": 6280000 }
+      { "name": "1 star", "count": 2 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 2 },
+      { "name": "4 star", "count": 4 },
+      { "name": "5 star", "count": 6 }
     ]
   },
   {
@@ -186,15 +186,15 @@
     "id": 11,
     "description": "Design stunning graphics, presentations, posters, and social media content with thousands of templates. Collaborate in real-time, animate designs, and export in multiple formats. Trusted by millions of creators, Canva makes professional design accessible to everyone, no experience needed.",
     "size": 58.3,
-    "reviews": 10800000,
+    "reviews": 11,
     "ratingAvg": 4.7,
-    "downloads": "10M",
+    "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 480000 },
-      { "name": "2 star", "count": 380000 },
-      { "name": "3 star", "count": 880000 },
-      { "name": "4 star", "count": 2280000 },
-      { "name": "5 star", "count": 6280000 }
+      { "name": "1 star", "count": 0 },
+      { "name": "2 star", "count": 0 },
+      { "name": "3 star", "count": 1 },
+      { "name": "4 star", "count": 2 },
+      { "name": "5 star", "count": 8 }
     ]
   },
   {
@@ -204,15 +204,15 @@
     "id": 12,
     "description": "Learn 40+ languages through quick, bite-sized lessons that feel like games. Practice speaking, reading, listening, and writing with personalized feedback. With streaks, leaderboards, and rewards, Duolingo makes language learning fun and effective for millions worldwide.",
     "size": 48.7,
-    "reviews": 12800000,
+    "reviews": 13,
     "ratingAvg": 4.6,
-    "downloads": "10M",
+    "downloads": 50,
     "ratings": [
-      { "name": "1 star", "count": 880000 },
-      { "name": "2 star", "count": 580000 },
-      { "name": "3 star", "count": 1280000 },
-      { "name": "4 star", "count": 2980000 },
-      { "name": "5 star", "count": 6280000 }
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 1 },
+      { "name": "3 star", "count": 1 },
+      { "name": "4 star", "count": 3 },
+      { "name": "5 star", "count": 7 }
     ]
   },
   {
@@ -222,15 +222,15 @@
     "id": 13,
     "description": "Host and join video meetings with HD quality, screen sharing, and virtual backgrounds. Connect with up to 1000 participants, record sessions, and integrate with calendars. From business meetings to virtual classrooms, Zoom powers reliable communication for teams and individuals globally.",
     "size": 68.1,
-    "reviews": 4280000,
+    "reviews": 4,
     "ratingAvg": 4.0,
-    "downloads": "10M",
+    "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 680000 },
-      { "name": "2 star", "count": 480000 },
-      { "name": "3 star", "count": 880000 },
-      { "name": "4 star", "count": 980000 },
-      { "name": "5 star", "count": 1260000 }
+      { "name": "1 star", "count": 1 },
+      { "name": "2 star", "count": 0 },
+      { "name": "3 star", "count": 1 },
+      { "name": "4 star", "count": 1 },
+      { "name": "5 star", "count": 1 }
     ]
   },
   {
@@ -240,15 +240,15 @@
     "id": 14,
     "description": "Identify any song playing around you in seconds with just one tap. Discover lyrics, watch music videos, and add tracks to your Spotify or Apple Music playlists. With over 1 billion installs, Shazam is the fastest way to find and save the music you love.",
     "size": 38.9,
-    "reviews": 8280000,
+    "reviews": 8,
     "ratingAvg": 4.7,
-    "downloads": "10M",
+    "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 380000 },
-      { "name": "2 star", "count": 280000 },
-      { "name": "3 star", "count": 680000 },
-      { "name": "4 star", "count": 1680000 },
-      { "name": "5 star", "count": 5280000 }
+      { "name": "1 star", "count": 0 },
+      { "name": "2 star", "count": 0 },
+      { "name": "3 star", "count": 1 },
+      { "name": "4 star", "count": 2 },
+      { "name": "5 star", "count": 5 }
     ]
   },
   {
@@ -258,15 +258,15 @@
     "id": 15,
     "description": "Back up unlimited photos and videos in high quality with free storage. Organize memories with automatic albums, search by people or places, and edit with AI-powered tools. Share securely with family and friends. Over 4 billion photos are uploaded daily to Google Photos.",
     "size": 58.3,
-    "reviews": 48800000,
+    "reviews": 49,
     "ratingAvg": 4.5,
-    "downloads": "10M",
+    "downloads": 50,
     "ratings": [
-      { "name": "1 star", "count": 3800000 },
-      { "name": "2 star", "count": 2800000 },
-      { "name": "3 star", "count": 6800000 },
-      { "name": "4 star", "count": 12800000 },
-      { "name": "5 star", "count": 22800000 }
+      { "name": "1 star", "count": 4 },
+      { "name": "2 star", "count": 3 },
+      { "name": "3 star", "count": 7 },
+      { "name": "4 star", "count": 13 },
+      { "name": "5 star", "count": 22 }
     ]
   },
   {
@@ -276,15 +276,15 @@
     "id": 16,
     "description": "Build and engage with your professional network, access knowledge, insights, and opportunities. Stay updated with industry news, connect with recruiters, and showcase your skills and experience. With over 1 billion members, LinkedIn is the world’s largest professional network for career growth, job searching, and business networking.",
     "size": 78.2,
-    "reviews": 2580000,
+    "reviews": 3,
     "ratingAvg": 4.4,
-    "downloads": "10M",
+    "downloads": 10,
     "ratings": [
-      { "name": "1 star", "count": 198000 },
-      { "name": "2 star", "count": 128000 },
-      { "name": "3 star", "count": 298000 },
-      { "name": "4 star", "count": 598000 },
-      { "name": "5 star", "count": 1358000 }
+      { "name": "1 star", "count": 3 },
+      { "name": "2 star", "count": 11 },
+      { "name": "3 star", "count": 1 },
+      { "name": "4 star", "count": 15 },
+      { "name": "5 star", "count": 28 }
     ]
   }
 ]
