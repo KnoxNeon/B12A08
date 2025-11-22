@@ -5,22 +5,11 @@ import { Star, Download } from 'lucide-react' // Optional: for nice icons
 
 const AppDetails = () => {
   const { id } = useParams()
-  const { apps } = useApps()
+  const { apps, loading, error } = useApps()
 
-  // Find the app safely
   const app = apps.find(a => String(a.id) === id)
 
-  // Handle case when app is not found (e.g. wrong URL)
-  if (!app) {
-    return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-50">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold text-gray-800">App Not Found</h1>
-          <p className="text-gray-600 mt-2">The app you're looking for doesn't exist.</p>
-        </div>
-      </div>
-    )
-  }
+  if (loading) return <p>Loading......</p>
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">

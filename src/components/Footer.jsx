@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-linear-to-r from-[#bda5f5] to-[#6c28ca] text-black font-bold  p-10">
+    <footer className="footer footer-vertical lg:footer-horizontal bg-linear-to-r from-[#bda5f5] to-[#6c28ca] text-black font-bold p-10">
   <aside>
     <img className='h-20 w-20 border-' src="../logo.png" alt="" />
     <p>
