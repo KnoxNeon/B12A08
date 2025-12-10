@@ -21,6 +21,14 @@ const Installation = () => {
     }
     else {return installed}
   })()
+
+  const handleDelete = (id) =>{
+    const existingList = JSON.parse(localStorage.getItem('installed'))
+    let updatedList = existingList.filter(a => a.id !== id)
+
+    setInstalled(updatedList)
+    localStorage.setItem('installed', JSON.stringify(updatedList))
+  }
   return (
     <div className="">
       <h1 className="pt-20 pb-2 text-5xl font-bold text-center">
@@ -68,7 +76,7 @@ const Installation = () => {
               </div>
             </div>
           </div>
-          <button className="btn bg-[#00D390] text-white">Uninstall</button>
+          <button onClick={()=> handleDelete(a.id)} className="btn bg-[#00D390] text-white">Uninstall</button>
         </div>
       ))}
     </div>
