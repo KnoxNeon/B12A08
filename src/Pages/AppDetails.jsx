@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router' 
 import useApps from '../Hooks/useApps'
 import { Star, Download } from 'lucide-react'
+import Ratings from '../Components/Ratings'
 
 const AppDetails = () => {
   const { id } = useParams()
@@ -76,39 +77,15 @@ const AppDetails = () => {
             </div>
           </div>
 
-          
           <div className="mt-10 text-gray-700 leading-relaxed text-sm sm:text-base">
             <h2 className="text-xl font-semibold mb-4">About this app</h2>
             <p className="whitespace-pre-line">{app.description}</p>
           </div>
 
-         
-          {app.ratings && (
-            <div className="mt-10">
-              <h3 className="text-lg font-semibold mb-4">Ratings & Reviews</h3>
-              <div className="space-y-3">
-                {app.ratings.slice().reverse().map((rating) => {
-                  const maxCount = Math.max(...app.ratings.map(r => r.count))
-                  const percentage = maxCount > 0 ? (rating.count / maxCount) * 100 : 0
+          <Ratings ratings = {app.ratings}/>
 
-                  return (
-                    <div key={rating.name} className="flex items-center gap-3">
-                      <span className="w-20 text-sm text-gray-600">{rating.name}</span>
-                      <div className="flex-1 bg-gray-200 rounded-full h-8 overflow-hidden">
-                        <div
-                          className="h-full bg-orange-400 transition-all duration-700"
-                          style={{ width: `${percentage}%` }}
-                        />
-                      </div>
-                      <span className="w-12 text-right text-sm text-gray-600">
-                        {rating.count}K
-                      </span>
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          )}
+         
+          
         </div>
       </div>
     </div>
