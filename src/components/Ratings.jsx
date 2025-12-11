@@ -5,8 +5,8 @@ const Ratings = ({ ratings }) => {
   const sortedRatings = [...ratings].reverse();
 
   return (
-    <div className="w-full h-[300px] bg-white rounded-lg shadow-sm p-4">
-      <h3 className="text-lg font-semibold mb-4 text-gray-800">Ratings</h3>
+    <div className="w-full h-[300px] pb-10 border-b-2 border-[#00193120]">
+      <h3 className="text-xl font-semibold mb-4 text-gray-800">Ratings</h3>
 
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={sortedRatings} layout="vertical">
