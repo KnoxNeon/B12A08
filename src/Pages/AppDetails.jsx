@@ -4,6 +4,7 @@ import { Star, Download, CheckCheck } from "lucide-react";
 import Ratings from "../Components/Ratings";
 import { useEffect, useState } from "react";
 import LoadingSpinner from "../Components/LoadingSpinner";
+import { Bounce, toast } from "react-toastify";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -42,15 +43,25 @@ const AppDetails = () => {
 
     const isDuplicate = existingList.some((a) => a.id === app.id);
     if (isDuplicate) {
-      alert("The app is already installed");
+      toast("The app is already installed");
       setInstalled(true);
       return;
     }
 
     const updatedList = [...existingList, app];
     localStorage.setItem("installed", JSON.stringify(updatedList));
-
     setInstalled(true);
+    toast.success('App Installed Successfully', {
+      autoClose: 5000,
+      position: "top-right",
+      closeOnClick: false,
+      hideProgressBar: false,
+      draggable: true,
+      pauseOnHover: true,
+      theme: "dark",
+      progress: undefined,
+      transition: Bounce,
+      });
   };
 
   return (

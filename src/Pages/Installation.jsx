@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { IoMdDownload } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
+import { Bounce, toast } from 'react-toastify';
 
 const Installation = () => {
   const [installed, setInstalled] = useState([])
@@ -29,6 +30,17 @@ const Installation = () => {
 
     setInstalled(updatedList)
     localStorage.setItem('installed', JSON.stringify(updatedList))
+    toast.success('App Uninstalled Successfully', {
+      autoClose: 5000,
+      position: "top-right",
+      closeOnClick: false,
+      hideProgressBar: false,
+      draggable: true,
+      pauseOnHover: true,
+      theme: "dark",
+      progress: undefined,
+      transition: Bounce,
+      });
   }
   return (
     <div className="">

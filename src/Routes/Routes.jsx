@@ -6,6 +6,7 @@ import Home from "../Pages/Home";
 import Installation from "../Pages/Installation";
 import AppDetails from "../Pages/AppDetails";
 import LoadingSpinner from "../Components/LoadingSpinner";
+import AppError from "../Pages/AppError";
 
 export const router = createBrowserRouter([
   {
@@ -27,7 +28,8 @@ export const router = createBrowserRouter([
         },
         {
             path: "/app/:id",
-            element: <AppDetails/>
+            element: <AppDetails/>,
+            errorElement: <AppError/>
         },
     ]
     
