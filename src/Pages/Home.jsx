@@ -11,6 +11,7 @@ const Home = () => {
   return (
 
     <div>
+      <title>Home</title>
       <div><Hero/><Banner/></div>
       <div ><h1 className='pt-4 lg:mt-20 mb-2 text-3xl lg:text-5xl font-bold text-center'>Trending Apps</h1>
       <p className='text-[#627382] text-md lg:text-xl text-center pb-10'>Explore All Trending Apps on the Market developed by us</p>

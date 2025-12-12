@@ -44,6 +44,7 @@ const Installation = () => {
   }
   return (
     <div className="">
+      <title>Installed Apps</title>
       <h1 className="pt-6 md:pt-10 lg:pt-20 pb-2 text-3xl md:text-5xl font-bold text-center">
         Your Installed Apps
       </h1>

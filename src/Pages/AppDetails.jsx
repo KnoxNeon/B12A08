@@ -66,6 +66,7 @@ const AppDetails = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
+      <title>App Details</title>
       <div className="max-w-full mx-auto overflow-hidden">
         <div className="p-6 lg:px-20">
           <div className="flex flex-col sm:flex-row gap-6 pb-8 border-b-2 border-[#00193120]">

@@ -11,6 +11,7 @@ const Apps = () => {
  
   return (
     <div className="bg-[#f3f3f3]">
+      <title>Apps</title>
       <h1 className="pt-4 lg:pt-20 pb-2 text-3xl lg:text-5xl font-bold text-center">
         Our All Applications
       </h1>

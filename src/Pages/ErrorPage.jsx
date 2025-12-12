@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 const ErrorPage = () => {
   return (
     <div className='flex flex-col justify-center h-screen'>
+      <title>404 Error</title>
       <img className='md:w-[500px] md:h-[480px] mx-auto md:mt-2 ' src="../error-404.png" alt="" />
       <h1 className=' mb-2 text-2xl md:text-5xl font-bold text-center'>Oops, page not found!</h1>
       <p className='text-[#627382] text-md md:text-xl text-center mb-2 md:mb-10'>The page you are looking for is not available.</p>
