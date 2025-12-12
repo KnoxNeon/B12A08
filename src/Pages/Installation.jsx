@@ -5,6 +5,7 @@ import { FaStar } from "react-icons/fa";
 const Installation = () => {
   const [installed, setInstalled] = useState([])
   const [sortOrder, setSortOrder] = useState('none')
+  
   useEffect(()=>{
     const existingList = JSON.parse(localStorage.getItem('installed'))
     if(existingList){
@@ -31,22 +32,22 @@ const Installation = () => {
   }
   return (
     <div className="">
-      <h1 className="pt-20 pb-2 text-5xl font-bold text-center">
+      <h1 className="pt-6 md:pt-10 lg:pt-20 pb-2 text-3xl md:text-5xl font-bold text-center">
         Your Installed Apps
       </h1>
-      <p className="text-[#627382] text-xl text-center mb-10">
+      <p className="text-[#627382] text-lg md:text-xl text-center mb-10">
         Explore All Trending Apps on the Market developed by us
       </p>
 
-      <div className="flex justify-between my-4 mx-20">
-        <h1 className=" text-2xl font-bold">
+      <div className="flex justify-between items-center my-4 mx-4 md:mx-10 lg:mx-20">
+        <h1 className="text-lg md:text-2xl font-bold">
           <span>{installed.length}</span> Apps Found
         </h1>
         <select
           value={sortOrder}
           defaultValue="Sort by Downloads"
           onChange={e => setSortOrder(e.target.value)}
-          className="select select-neutral"
+          className="select select-neutral w-[180px]  md:w-[300px]"
         >
           <option value='none' disabled={true}>Sort by Downloads</option>
           <option value='down-desc'>High-Low</option>
@@ -55,12 +56,12 @@ const Installation = () => {
       </div>
 
       {sortApps.map((a) => (
-        <div className="bg-base-100 card-xs shadow-sm flex justify-between items-center mx-20 p-4 rounded-lg mb-4">
-          <div className="flex items-center gap-6">
-            <img className="w-20 h-20 rounded-lg" src={a.image} alt="" />
+        <div className="bg-base-100 card-xs shadow-sm flex justify-between items-center mx-4 md:mx-10 lg:mx-20 p-2 md:p-4 rounded-lg mb-4">
+          <div className="flex items-center gap-2 md:gap-6">
+            <img className="w-10 h-10 md:w-20 md:h-20 rounded-lg" src={a.image} alt="" />
             <div className="">
               <h2 className="text-[#001931] font-medium text-xl">{a.title}</h2>
-              <div className="flex gap-6">
+              <div className="flex items-center gap-2 md:gap-6">
                 <p className="flex items-center gap-0.5 text-[#00D390] text-base font-medium ">
                   {" "}
                   <IoMdDownload />

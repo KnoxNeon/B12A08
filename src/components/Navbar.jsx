@@ -19,7 +19,7 @@ const Navbar = () => {
       <li><Link to='/installation'>Installation</Link></li>
       </ul>
     </div>
-    <NavLink className='flex btn btn-ghost'>
+    <NavLink className='flex items-center pl-2 hover:scale-105'>
       <img className='h-10 w-10' src="../logo.png" alt="" />
     <div className=" text-xl bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</div>
     </NavLink>

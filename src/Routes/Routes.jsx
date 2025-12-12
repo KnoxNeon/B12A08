@@ -5,6 +5,7 @@ import ErrorPage from "../Pages/ErrorPage";
 import Home from "../Pages/Home";
 import Installation from "../Pages/Installation";
 import AppDetails from "../Pages/AppDetails";
+import LoadingSpinner from "../Components/LoadingSpinner";
 
 export const router = createBrowserRouter([
   {

@@ -16,9 +16,9 @@ const AppCard = ({app}) => {
               <div className="">
                   <h2 className="text-center mx-auto font-medium text-xl lg:pb-4">{app.title}</h2>
             
-                  <div className="flex justify-between gap-2 flex-nowrap">
-                      <button className="btn bg-[#F1F5E8] text-[#00D390] lg:text-base lg:font-medium"> <IoMdDownload />{app.downloads}M</button>
-                      <button className="btn bg-[#FFF0E1] text-[#FF8811] lg:text-base lg:font-medium"><FaStar />{app.ratingAvg}</button>
+                  <div className="flex justify-between md:gap-2 flex-nowrap">
+                      <button className="flex items-center py-1 px-2 md:px-4 md:py-2 gap-2 rounded-lg bg-[#F1F5E8] text-[#00D390] text-sm lg:text-base lg:font-medium"> <IoMdDownload />{app.downloads}M</button>
+                      <button className="flex items-center py-1 px-2 md:px-4 md:py-2 gap-2 rounded-lg bg-[#FFF0E1] text-[#FF8811] text-sm lg:text-base lg:font-medium"><FaStar />{app.ratingAvg}</button>
                   </div>
               </div>
           </Link>
